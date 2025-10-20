@@ -1,0 +1,167 @@
+
+<div class="alert logging" style="margin-top:10%;">
+  <ul class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="nav-instagram-tab" data-toggle="tab" data-target="#instagram" type="button" role="tab" aria-controls="nav-instagram" aria-selected="true" style="padding: 10px;">
+        <i class="fab fa-instagram"></i> Instagram </button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="nav-threads-tab" data-toggle="tab" data-target="#threads" type="button" role="tab" aria-controls="nav-threads" aria-selected="false" style="padding: 10px;">
+        <i class="fas fa-at"></i> Threads </button>
+    </li>
+  </ul>
+  <div class="tab-content" id="nav-tabContent" style="margin-top:3%;">
+    <!--INSTAGRAM LOGIN-->
+    <div class="tab-pane fade show active" id="instagram" role="tabpanel" aria-labelledby="nav-instagram-tab">
+      <ul class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="nav-login-tab" data-toggle="tab" data-target="#nav-login" type="button" role="tab" aria-controls="nav-login" aria-selected="true"><i class="fas fa-sign-in-alt"></i> Log In</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="nav-session-tab" data-toggle="tab" data-target="#nav-session" type="button" role="tab" aria-controls="nav-session" aria-selected="false"><i class="fas fa-cookie-bite"></i> Session</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-login" role="tabpanel" aria-labelledby="nav-login-tab">
+          <div class="card mx-auto" style="width: 35rem;">
+            <div class="card-header h3">LOGIN IG</div>
+            <div class="card-body">
+                <div class="input-group mb-3 first">
+                  <span class="input-group-text" id="ed">
+                    <i class="fa-solid fa-user"></i>
+                  </span>
+                  <input type="text" class="form-control pengguna" placeholder="Username" aria-describedby="ed" autocomplete="on">
+                </div>
+                <div class="input-group mb-3 second">
+                  <span class="input-group-text" id="dd">
+                    <i class="fas fa-lock"></i>
+                  </span>
+                  <input type="password" class="form-control sandi" placeholder="Sandi" aria-describedby="dd" autocomplete="on">
+                </div>
+                <div class="input-group mb-3 third">
+                  <span class="input-group-text" id="as">
+                    <i class="fas fa-lock"></i>
+                  </span>
+                  <input type="text" class="form-control code_email" placeholder="Dele kene Codemu" aria-describedby="as">
+                </div>
+                <div class="btn-group mb-3" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-md inbtn mbaros"><i class="fas fa-sign-in-alt"></i> MASUK</button>
+                  <button type="button" class="btn btn-md inbtn resend"></button>
+                </div>
+                <button type="button" class="btn btn-md inbtn backlogin">Kembali Ke Login</button>
+            </div>
+            <div class="card-footer warning_error text-uppercase">
+              CONSOLE
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="nav-session" role="tabpanel" aria-labelledby="nav-session-tab">
+          <div class="card mx-auto" style="width: 35rem;">
+            <div class="card-header h3">SESSION IG</div>
+            <div class="card-body">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="ed">
+                    <i class="fas fa-cookie-bite"></i>
+                  </span>
+                  <textarea class="form-control sessiondata" cols="5" rows="5" placeholder="Paste Session"></textarea>
+                </div>
+                <button type="button" class="btn btn-md inbtn load_session">
+                  <i class="fas fa-cookie-bite"></i> LOAD
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--THREAD LOGIN-->
+    <div class="tab-pane fade" id="threads" role="tabpanel" aria-labelledby="nav-threads-tab">
+      <ul class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="nav-threads" data-toggle="tab" data-target="#nav-login-threads" type="button" role="tab" aria-controls="nav-login" aria-selected="true"><i class="fas fa-sign-in-alt"></i> Log In</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="nav-threads" data-toggle="tab" data-target="#nav-session-threads" type="button" role="tab" aria-controls="nav-session" aria-selected="false"><i class="fas fa-cookie-bite"></i> Session</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-login-threads" role="tabpanel">
+          <div class="card mx-auto" style="width: 35rem;">
+            <div class="card-header h3">LOGIN THREADS</div>
+            <div class="card-body">
+                <div class="input-group mb-3 first">
+                  <span class="input-group-text" id="ed">
+                    <i class="fa-solid fa-user"></i>
+                  </span>
+                  <input type="text" class="form-control penggunathreads" placeholder="Username" aria-describedby="ed" autocomplete="on">
+                </div>
+                <div class="input-group mb-3 second">
+                  <span class="input-group-text" id="dd">
+                    <i class="fas fa-lock"></i>
+                  </span>
+                  <input type="password" class="form-control sandithreads" placeholder="Sandi" aria-describedby="dd" autocomplete="on">
+                </div>
+                <div class="input-group mb-3 third">
+                  <span class="input-group-text" id="as">
+                    <i class="fas fa-lock"></i>
+                  </span>
+                  <input type="text" class="form-control code_email" placeholder="Dele kene Codemu" aria-describedby="as">
+                </div>
+                <div class="btn-group mb-3" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-md inbtn threadsLogin"><i class="fas fa-sign-in-alt"></i> MASUK</button>
+                  <button type="button" class="btn btn-md inbtn resend"></button>
+                </div>
+                <button type="button" class="btn btn-md inbtn backlogin">Kembali Ke Login</button>
+            </div>
+            <div class="card-footer threads_error text-uppercase">
+              CONSOLE
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="nav-session-threads" role="tabpanel">
+          <div class="card mx-auto" style="width: 35rem;">
+            <div class="card-header h3">SESSION THREADS</div>
+            <div class="card-body">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="ed">
+                    <i class="fas fa-cookie-bite"></i>
+                  </span>
+                  <textarea class="form-control sessiondatathreads" cols="5" rows="5" placeholder="Paste Session"></textarea>
+                </div>
+                <button type="button" class="btn btn-md inbtn load_session_threads">
+                  <i class="fas fa-cookie-bite"></i> LOAD
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<button class="open_suspend" data-toggle="modal" data-target="#suspend" hidden></button>
+<!--Modal Poto-->
+<div class="modal fade" id="suspend" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title suspend_warning"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <input type="file" class="form-control-file uploadselfie mb-3" hidden>
+          <img src="" class="tfb_captcha_preview img-thumbnail mx-auto mb-3">
+          <textarea class="form-control mb-3 captcha_code" cols="2" rows="2" placeholder="Masukkan Captcha Code"></textarea>
+          <p class="base64" style="display: none;"></p>
+          <div class="btn-group mb-2" role="group">
+            <button type="button" class="btn btn-md inbtn submit_captcha">SUBMIT CODE</button>
+            <button type="button" class="btn btn-md inbtn bypass_captcha">BYPASS CODE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal Poto-->
